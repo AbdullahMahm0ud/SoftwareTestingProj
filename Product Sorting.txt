@@ -1,0 +1,69 @@
+Product Sorting test cases
+
+///1- Work Type: Test Case || Summary: Verify the sorting by Name (A-Z) & (Z-A) functionality. ||Desc: This test case makes sure that the function for sorting products (A-Z) & (Z-A) is available and that its working properly. || 
+Steps: 
+1. Open a web browser or use the following link to get to Swag Labs (https://www.saucedemo.com/).
+2. Log in using a username and a password.
+3. On the top right of the screen right under the cart icon you will find a list (usually defaulted to sort by Name [A to Z]).
+4. Click it then switch to Name (Z to A) and see changes. || 
+
+Expected Results:
+- Sorting list should be available in the expected area (Top right).
+- All sorting options should be available.
+- Upon selecting any sorting option the products should display accordingly.
+- No major UI change || Label: ProductPage - UI - BackEnd || Team: SWAGLABS || SPE: - || Sprint: DEPIR Sprint 1 || Attachment: (uploadIMG) || LinkWorkItems: - 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+///2- Work Type: Test Case || Summary: Verify the sorting by Price (Low to High) & (High to Low) functionality. ||Desc: This test case makes sure that the function for sorting products (Low to High) & (High to Low) is available and that its working properly. || 
+
+Steps: 
+1. Open a web browser or use the following link to get to Swag Labs (https://www.saucedemo.com/).
+2. Log in using a username and a password.
+3. On the top right of the screen right under the cart icon you will find a list (usually defaulted to sort by Name [A to Z]).
+4. Click it then switch to Price (Low to High) or Price (High to Low) and see changes. || 
+
+Expected Results:
+- Sorting list should be available in the expected area (Top right).
+- All sorting options should be available.
+- Upon selecting any sorting option the products should display accordingly.
+- No major UI change || 
+Label: ProductPage - UI - BackEnd || Team: SWAGLABS || SPE: - || Sprint: DEPIR Sprint 1 || Attachment: (uploadIMG) || LinkWorkItems: - 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+///3- Work Type: User Story || Summary: Adding a rating system & the sorting function related to it. || Desc: As a User, I want to be able to rate products and sort products by rating, So i can easily identify the highest rating products. ||
+Acceptance Criteria:
+- Users can rate a product from 0 to 5 stars.
+- Users can view the average rating of a certain product.
+- Non Authorized Users can view average rating but can't rate products.
+- All Users can use the sort by rating function. ||
+Label: ProductPage - UI - BackEnd || Team: SWAGLABS || Sprint: DEPIR Sprint 1 || LinkWorkItem: Related to - DEPIR 16
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+///4- Work Type: Bug || Summary: Malfunction in sorting system. || Desc: Using any option in the sorting system causes an error. || 
+Steps: 
+1. Open a web browser or use the following link to get to Swag Labs (https://www.saucedemo.com/).
+2. Log in using a username and a password (Malfunction within username: error_user).
+3. On the top right of the screen right under the cart icon you will find a list (usually defaulted to sort by Name [A to Z]).
+4. Selecting any other option will result in the error reported.
+
+Expected Results:
+- Upon selecting any sorting option the products should display accordingly. ||
+Actual Results: 
+- Selecting any option will result in the error (Sorting is broken! This error has been reported to Backtrace).
+Priority: Lowest || Severity: Lowest || Label: ProductPage - UI - BackEnd || Team: SWAGLABS || Sprint: DEPIR Sprint 1 || Attachment: (uploadIMG) || LinkWorkItems: - 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
